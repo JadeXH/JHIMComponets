@@ -66,7 +66,7 @@
 		AF8EEC18C76232AE9120462B /* Pods-JHIMComponets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHIMComponets_Example.debug.xcconfig"; path = "Target Support Files/Pods-JHIMComponets_Example/Pods-JHIMComponets_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C07AF298399EA7E9D84A0DC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C5D18D60FDEF7C693395A11D /* Pods_JHIMComponets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHIMComponets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE93647EC9737D928BD7A876 /* JHIMComponets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JHIMComponets.podspec; path = ../JHIMComponets.podspec; sourceTree = "<group>"; };
+		EE93647EC9737D928BD7A876 /* JHIMComponets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JHIMComponets.podspec; path = ../JHIMComponets.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,10 +350,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JHIMComponets_Example/Pods-JHIMComponets_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JHIMComponets/JHIMComponets.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHIMComponets.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
