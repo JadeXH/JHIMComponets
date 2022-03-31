@@ -21,9 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		83D1F42D74F811DDBB12CF8C /* libPods-JHIMComponets_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC75479E3750B6C39435F0A5 /* libPods-JHIMComponets_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9ADAF65E10816E20A8DA7471 /* Pods_JHIMComponets_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D18D60FDEF7C693395A11D /* Pods_JHIMComponets_Example.framework */; };
-		FEEC462300E172D6E9402DBE /* Pods_JHIMComponets_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5FE2A1A575BF99DB38D20 /* Pods_JHIMComponets_Tests.framework */; };
+		BA91A8986C3C15AC6DA22658 /* libPods-JHIMComponets_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338B4DED614B309FC06DBAAC /* libPods-JHIMComponets_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CB5FE2A1A575BF99DB38D20 /* Pods_JHIMComponets_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHIMComponets_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		338B4DED614B309FC06DBAAC /* libPods-JHIMComponets_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHIMComponets_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC451B1D9D094A225288B06 /* Pods-JHIMComponets_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHIMComponets_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JHIMComponets_Tests/Pods-JHIMComponets_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F237492058EFE3C0A3ED81D /* Pods-JHIMComponets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHIMComponets_Example.release.xcconfig"; path = "Target Support Files/Pods-JHIMComponets_Example/Pods-JHIMComponets_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JHIMComponets_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHIMComponets_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,9 @@
 		9AD1FFE43CE9EA063637C6C2 /* Pods-JHIMComponets_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHIMComponets_Tests.release.xcconfig"; path = "Target Support Files/Pods-JHIMComponets_Tests/Pods-JHIMComponets_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF8EEC18C76232AE9120462B /* Pods-JHIMComponets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHIMComponets_Example.debug.xcconfig"; path = "Target Support Files/Pods-JHIMComponets_Example/Pods-JHIMComponets_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C07AF298399EA7E9D84A0DC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C5D18D60FDEF7C693395A11D /* Pods_JHIMComponets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHIMComponets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D771249227F5ED4D002734DE /* JHIMComponets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JHIMComponets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE93647EC9737D928BD7A876 /* JHIMComponets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JHIMComponets.podspec; path = ../JHIMComponets.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC75479E3750B6C39435F0A5 /* libPods-JHIMComponets_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHIMComponets_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9ADAF65E10816E20A8DA7471 /* Pods_JHIMComponets_Example.framework in Frameworks */,
+				83D1F42D74F811DDBB12CF8C /* libPods-JHIMComponets_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FEEC462300E172D6E9402DBE /* Pods_JHIMComponets_Tests.framework in Frameworks */,
+				BA91A8986C3C15AC6DA22658 /* libPods-JHIMComponets_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +120,13 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D771249227F5ED4D002734DE /* JHIMComponets.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C5D18D60FDEF7C693395A11D /* Pods_JHIMComponets_Example.framework */,
-				2CB5FE2A1A575BF99DB38D20 /* Pods_JHIMComponets_Tests.framework */,
+				FC75479E3750B6C39435F0A5 /* libPods-JHIMComponets_Example.a */,
+				338B4DED614B309FC06DBAAC /* libPods-JHIMComponets_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +209,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FF406CC156775A26AF33F88F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,26 +343,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF406CC156775A26AF33F88F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JHIMComponets_Example/Pods-JHIMComponets_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JHIMComponets/JHIMComponets.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHIMComponets.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JHIMComponets_Example/Pods-JHIMComponets_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -454,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -500,9 +481,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8HA65L2DH3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHIMComponets",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHIMComponets/JHIMComponets-Prefix.pch";
 				INFOPLIST_FILE = "JHIMComponets/JHIMComponets-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jade.debug.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,9 +504,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8HA65L2DH3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHIMComponets",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JHIMComponets/JHIMComponets-Prefix.pch";
 				INFOPLIST_FILE = "JHIMComponets/JHIMComponets-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jade.debug.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";

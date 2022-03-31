@@ -7,6 +7,10 @@
 //
 
 #import "JHViewController.h"
+#import <UIKit/UIKit.h>
+#import <JHIMComponet.h>
+#import <JHIMTestView.h>
+#import <SDWebImage/SDWebImage.h>
 
 @interface JHViewController ()
 
@@ -17,7 +21,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    JHIMComponet *pJHCom = [[JHIMComponet alloc] init];
+    [pJHCom printJHIMComponet];
+
+    JHIMTestView *jhView = [[JHIMTestView alloc] initWithFrame:CGRectMake(100, 400, 150, 220)];
+    [jhView setBackgroundColor:[UIColor lightGrayColor]];
+    [jhView showIMSDWebImageView];
+    [self.view addSubview:jhView];
+
 }
 
 - (void)didReceiveMemoryWarning
