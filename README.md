@@ -17,7 +17,8 @@ JHIMComponets is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'JHIMComponets'
+pod 'JHIMComponets',:git =>"https://github.com/JadeXH/JHIMComponets.git"
+#pod 'JHIMComponets',:git =>"https://github.com/JadeXH/JHIMComponets.git", :tag => '0.1.1'
 ```
 
 ## Author
