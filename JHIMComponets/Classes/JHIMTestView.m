@@ -17,7 +17,7 @@
 - (void)showIMSDWebImageView {
     UIImageView *imgView = [[UIImageView alloc] init];
     [imgView setFrame:self.frame];
-    NSString *strUrl = @"https://github.com/JadeXH/luatest/blob/master/2222.jpg";
+    NSString *strUrl = @"https://raw.githubusercontent.com/JadeXH/luatest/master/2222.jpg";
     [imgView sd_setImageWithURL:[NSURL URLWithString:strUrl ? strUrl:@""] placeholderImage:nil];
     [self addSubview:imgView];
 }
